@@ -5,7 +5,7 @@ RUN apt-get update && apt-get install -y wget cmake make build-essential uuid-de
 
 COPY build.sh build.sh
 
-RUN bash ./build.sh 2.5.0
+RUN bash ./build.sh 2.5.1
 
 VOLUME ["/root/.taskrc", "/root/.task"]
 
